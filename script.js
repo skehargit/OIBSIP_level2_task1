@@ -7,7 +7,6 @@ buttons.forEach((item) => {
     let last = display.innerText.split('')
     
   if(last[last.length-1]=="-"&&last[last.length-2]=="-"||last[last.length-1]=="*"&&last[last.length-2]=="*"||last[last.length-1]=="/"&&last[last.length-2]=="/"||last[last.length-1]+last[last.length-2]=="++"){
-    // last[last.length-1]="+"
     display.innerText = display.innerText.slice(0,-1);
     // console.log(last)
   }
